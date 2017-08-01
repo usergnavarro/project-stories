@@ -58,11 +58,11 @@ img {
 }
 
 img:hover{
--ms-transform: rotate(-10deg);
--webkit-transform: rotate(-10deg);
--moz-transform: rotate(-10deg);
--o-transform: rotate(-10deg);
-transform: rotate(-10deg);}
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);}
 
 .modal-title {
     font-size: 30px;
@@ -117,5 +117,12 @@ footer {
 
     footer {
         height: 140px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .responsive-box-1 {
+        width: 25%;
     }
 }
