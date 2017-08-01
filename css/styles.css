@@ -57,6 +57,10 @@ img {
     box-shadow: 2px 2px 2px #363636;
 }
 
+.modal-title {
+    font-size: 30px;
+}
+
 /*Footer*/
 footer {
     background-color: #ffff00;
